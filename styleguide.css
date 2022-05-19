@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#A1C3D1;
+    color: #F0EBF4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B39BC8;
+    text-align: center;
+    width: 100vw;
+}
+
+div h2 {
+    text-align: center;
+}
+
+#fonts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid #C1C8E4;
+}
+
+#fonts ul {
+    list-style-type: none;
+}
+
+.fonthead {
+    margin-bottom: 0.5em;
+    text-decoration: underline;
+    text-decoration-color: #8860D0;
+}
+
+#TNR {
+    font-family: Times, 'Times New Roman', serif;
+}
+
+#helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+#notoSans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#typewrite {
+    font-family: 'American Typewriter', serif;
+}
+
+#quicksand {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+#color {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2em 2em;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#color ul {
+    list-style-type: none;
+}
+
+#color section {
+    min-height: 100px;
+    min-width: 200px;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+#babyBlue {
+    background: #89cff0;
+}
+
+#frenchblue {
+    background-color: #318ce7;
+}
+
+#shadows {
+    background-color: #bfafb3;
+}
+
+#bell {
+    background-color: #a2a2d0;
+}
+
+#boysen {
+    background-color: #873260;
+}
+
+#ube {
+    background-color: #d19fe8;
+}
+
+#coolgrey {
+    background-color: #8c92ac;
+}
+
+#minYetWarm section {
+    background: linear-gradient(45deg,#EAE7DC, #E85A4F);
+    width: 100vw;
+    height: 501px;
+}
+
+#minYetWarm ul{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    list-style-type: none;
+    color:#000000;
+    border: 1px solid darkblue;
+    padding: 0px;
+    margin: 0px;
+}
+
+#minYetWarm li {
+    height: 100px;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#eggshell {
+    background-color: #EAE7DC;
+}
+
+#darkvanilla {
+    background-color: #D8C3A5;
+}
+
+#taupegray {
+    background-color: #8E8D8A;
+}
+
+#jbeanred1 {
+    background-color: #E98074;
+}
+
+#jbeanred2 {
+    background-color: #E85A4F;
+}
+
+#colorschemes h3 {
+    color:black;
+    display: inline;
+}
+
+#strikingcitrus {
+    display: grid;
+    height: 50vh;
+    width: 100%;
+    grid-template-columns: 0.8fr 0.2fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-areas: 
+    "maincontent color1"
+    "maincontent color2"
+    "maincontent color3"
+    "maincontent color4"
+    "maincontent color5";
+}
+
+#maincontent {
+    background: linear-gradient(4247847529872349872349832111111111deg, #1F2605, #D6CE15);
+    grid-area: maincontent;
+    text-align: center;
+}
+
+.color1 {
+    background-color: #1F2605;
+    grid-area: color1;
+}
+
+.color2 {
+    background-color: #1F6521;
+    grid-area: color2;
+}
+
+.color3 {
+    background-color: #53900F;
+    grid-area: color3;
+}
+
+.color4 {
+    background-color: #A4A71E;
+    grid-area: color4;
+}
+
+.color5 {
+    background-color: #D6CE15;
+    grid-area: color5;
+}
+
+#heads {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#h1 {
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+#h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'American Typewriter', serif;  
+}
+
+#h3 {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+#h4 {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'American Typewriter', serif;  
+}
+
+#h5 {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+#h6 {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'American Typewriter', serif;  
+}
